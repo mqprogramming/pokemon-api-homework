@@ -1,0 +1,38 @@
+h2 {
+  text-align: center;
+}
+
+h3 {
+  border: 2px solid #A40808;
+  background-color: #EEE7DB;
+  width: 20%;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: 40vw;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table.redTable {
+  border: 2px solid #A40808;
+  background-color: #EEE7DB;
+  width: 90%;
+  margin-left: 5vw;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.redTable td, table.redTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.redTable tbody td {
+  font-size: 13px;
+}
+table.redTable tr:nth-child(even) {
+  background: #F5C8BF;
+}
+table.redTable thead {
+  background: #A40808;
+}
